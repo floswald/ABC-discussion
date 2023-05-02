@@ -1,5 +1,5 @@
 ---
-title: "Discussing <br>  *Social Networks and Geographic Mobility* by Almagro, Bordeu and Caetano"
+title: "Discussing <br>  *Social Networks and Geographic Mobility* by [Milena Almagro](https://www.milena-almagro.com/), [Olivia Bordeu](https://www.oliviabordeu.com/) and [Gregorio Caetano](http://www.gregoriocaetano.net/)"
 author: "<br> [Florian Oswald](https://floswald.github.io/)"
 date: "5 May 2023"
 date-format: "D MMMM, YYYY"
@@ -157,4 +157,4 @@ BUT
 
 # End
 
-Thanks for listening!
+Thanks for nice paper!
