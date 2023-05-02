@@ -1,0 +1,160 @@
+---
+title: "Discussing <br>  *Social Networks and Geographic Mobility* by Almagro, Bordeu and Caetano"
+author: "<br> [Florian Oswald](https://floswald.github.io/)"
+date: "5 May 2023"
+date-format: "D MMMM, YYYY"
+institute: "Urban Economics Association Meeting Bocconi 2023"
+format: 
+  revealjs:
+    theme: _extensions/metropolis-theme/metropolis.scss
+    chalkboard: true
+    logo: images/ScPo-logo.png
+    footer: "UEA 2023 [Florian Oswald, SciencesPo Paris](https://floswald.github.io/)"
+    incremental: false
+    code-line-numbers: false
+    highlight-style: github  
+    slide-number: true
+editor: visual
+---
+
+# Overview and Findings of the Paper
+
+-----------------
+
+## Overview
+
+::: {.fragment .fade-in-then-semi-out}
+1.  Social Networks (SN) matter for migration. SN $\approx$ Amenity.
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+2.  SNs are important for decision to **stay/leave** *and also* for **where exactly to go**.
+:::
+
+. . .
+
+### This Paper
+
+::: {.fragment .fade-in-then-semi-out}
+1.  Focuses on the **stay/leave** part, and a particular form of SN: relatives who assist with childcare.
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+2. Documents who relies more on this SN, and how migration decisions are impacted by its existence and extent.
+:::
+
+----------------
+
+## Findings
+
+::: {.fragment}
+* Low-income HH are less mobile than high-income HH.
+:::
+
+::: {.fragment}
+* Relatives provide 70% of childcare for low-income HH (50% for high-income).
+:::
+
+::: {.fragment}
+* Presence of children in HH reduces cross-state mobility significantly.
+:::
+
+::: {.fragment }
+* Income strongly predicts amount of childcare provided by market vs relatives.
+:::
+
+::: {.fragment }
+* Correlation between mobility and reliance on family-provided childcare.
+:::
+
+# Comments
+
+------------------------------------------------------------------------
+
+
+## Relevant Additional Literature
+
+<br>
+
+1. [Gizem Kosar, Tyler Ransom and Wilbert van der Klaauw - *Understanding migration aversion using elicited counterfactual choice probabilities*](https://www.sciencedirect.com/science/article/pii/S0304407621000415) : Direct elicitation of migration probabilities in relation to social network.
+
+<br>
+
+2. [Joshua Blumenstock, Guanghua Chi and Xu Tan - *Migration and the Value of Social Networks*](https://www.jblumenstock.com/files/papers/migration_networks.pdf): Role of social network, information vs economic support.
+
+--------
+
+## Everybody is equally fertile
+
+* Of course [I am totally biased](https://floswald.github.io/project/fertility/).
+
+. . .
+
+BUT
+
+. . .
+
+* I encourage you to precisely spell out the consequences of assuming exogenous fertility, and the precise assumptions you are making. In the data, people choose location and fertility **jointly**.
+
+-----
+
+## What is a Location?
+
+* a tuple (wage, price of childcare type j, relative price of C) 
+* all generated outside of the model - there is no mechanism in the model to set prices and wages.
+* In the real world some places have very limited supply of market childcare - rural areas. Why not incorporate those constraints explicitly? 
+* Locations differ starkly by housing costs for people with and without children - absent from the model. (My bias from above.)
+
+
+----
+
+## Stylized Fact and Table 1
+
+::: {layout-ncol="2"}
+![Table 1 this paper](images/table1.png)
+
+![Table 4 [Oswald 2019](https://floswald.github.io/publication/option-homeownership-2019/). (Probit model.)](images/table4.png)
+:::
+
+---
+
+## Calibration/Estimation
+
+* Calibration of opportunity cost to (observed) mothers' wages: 
+    **multi-way Selection problem?!** 
+    1. Using observed wage for non-participants yields biased estimates (Heckman) 
+    2. high wage mothers move to expensive city (Urban literature)
+    3. might have lower fertility. (?)
+    
+. . .
+
+* Effect of tenure: cost of childcare after 7 years of tenure might drop because...the kid is now 7+ years old!
+
+---
+
+## Counterfactuals and the Lucas Critique?
+
+* The plan is to use the estimated model to perform different policies.
+
+. . .
+
+* The model is in partial equilibrium: all prices are estimated from data, there is no mechanism to set them inside the model.
+
+. . .
+
+* Policy will change allocation of people across space, presumably changing prices, how will we interpret the experiments?
+
+# Suggestions
+
+---------
+
+## Suggestions
+
+1. Focus more on the childcare story (starting in title?)
+2. The choice of different childcare mixes adds a lot of complexity - try to make more out of this! Argue that we need this level of complexity (figure 6).
+3. Maybe link somehow to gender-gap-location literature? You are providing a childcare choice model for work like [Le Barbanchon, Rathelot and Roulet - *Gender Differences in Job Search: Trading off Commute against Wage*](https://academic.oup.com/qje/article/136/1/381/5928590)
+
+
+# End
+
+Thanks for listening!
